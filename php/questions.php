@@ -67,3 +67,6 @@ function get_new_question ($asked_question_ids){
     return $chosen_question;
 }
 
+/* TODO */
+// Comment 1
+// Comment 2
