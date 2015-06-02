@@ -42,11 +42,11 @@ function all_numeric($question_ids){
     }
     return true;
 }
-
 /**
  * Returns a random new question from the question database
  * @param $asked_question_ids The IDs of questions, which have already been asked
  * @return mixed
+ 
  */
 function get_new_question ($asked_question_ids){
     global $all_questions;
